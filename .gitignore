@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# numpy downloaded by the plugin on first use
+EmilsPsdToSpp/_deps/
+dist/
+# never commit test PSDs or projects
+*.psd
+*.psb
+*.spp
+*.spp.bak
