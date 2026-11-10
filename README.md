@@ -75,7 +75,7 @@ This is a first version, so expect a few rough edges. The PSD reading, the color
 - Clipping masks, layer styles (drop shadow, stroke...) and adjustment layers aren't converted, only the layer's own pixels and mask
 - Only the Base Color channel is filled
 - Painter blends in linear color, Photoshop doesn't, so semi-transparent Multiply layers can look a tiny bit different
-- Tested on Windows with Painter 12.2. macOS should work but I haven't tried it
+- Made for Painter 12.2 (2026) on Windows. macOS should work but nobody has tried it yet
 
 ## Credits
 
