@@ -69,6 +69,8 @@ If you'd rather not touch the file at all, untick the option. The masks and pixe
 
 ## Limits
 
+This is a first version, so expect a few rough edges. The PSD reading, the color fitting and the `.spp` rewrite are checked against reference tools (psd-tools, h5py) and give the exact same results, but the in-Painter part is fresh. If something breaks, [open an issue](https://github.com/emil1326/EmilsPsdToSpp/issues) with Painter's log (on Windows: `%LOCALAPPDATA%\Adobe\Adobe Substance 3D Painter\log.txt`) and I'll have a look.
+
 - PSD only (no PSB), RGB or grayscale, 8 or 16 bits
 - Clipping masks, layer styles (drop shadow, stroke...) and adjustment layers aren't converted, only the layer's own pixels and mask
 - Only the Base Color channel is filled
